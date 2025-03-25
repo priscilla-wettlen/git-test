@@ -8,6 +8,7 @@ public class Main {
         if(name.equals("Joel")) {
             Joel joel = new Joel();
             joel.hello();
+            joel.food();
         }
         if(name.equals("Priscilla")) {
             priscilla priscilla = new priscilla();
