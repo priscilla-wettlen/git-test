@@ -7,12 +7,11 @@ public class Main {
         String name = sc.nextLine();
         if(name.equals("Joel")) {
             Joel joel = new Joel();
-            joel.hello();
             joel.food();
         }
         if(name.equals("Priscilla")) {
             priscilla priscilla = new priscilla();
-            priscilla.hello();
+            priscilla.food();
         }
         sc.close();
         System.out.println("Goodbye!");
